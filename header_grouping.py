@@ -9,10 +9,25 @@ class Header:
         
         self.header_text = header_without_leading_pound_signs
         self.sub_headers = []
-        self.num_references = 0
+        self.references= []
 
-    def increment_reference_count(self):
-        self.num_references += 1
+    def add_reference(self, reference):
+        self.references.append(reference)
 
     def get_header_level(self):
         return self.header_level
+
+    def add_direct_subheader(self, header):
+        self.sub_headers.append(header)
+
+class HeaderManager:
+    def __init__(self):
+        self.current_header = None
+        # self.root_header = None
+    
+    def add_header(self, line_text):
+        if self.current_header is None:
+            self.current_header = Header(line_text)
+    
+    def add_reference(self, reference):
+        self.current_header.add_reference(reference)

@@ -1,4 +1,5 @@
 import re
+from header_grouping import HeaderManager
 
 class ReferenceCounter:
     def __init__(self, file_path, print_references=True, count_duplicates=False):
@@ -14,23 +15,16 @@ class ReferenceCounter:
 
         with open(self.file_name) as fileobj:
             current_line = ""
-            current_header = None
+            header_manager = HeaderManager()
             for line in fileobj:
                 if line.startswith("#"): # This indicates that this line is a header of some kind
-                    current_line = line
-                    self.headers_and_references[line] = []
-
-                else:
+                    header_manager.add_header(line)
+                elif line.startswith("-"): # This indicates that this line is quote block
                     current_articles = self.p.findall(line)  # This will return a list of all references in the current line
-                    if len(current_articles) > 0:
-                        for article in current_articles:
-                            if self.count_duplicates: # If we want to count duplicates, we can just append the article to the list
-                                total_reference_count += 1
-                                self.headers_and_references[current_line].append(article)
-                            else: # Otherwise, we need to check if the article is already in the list
-                                if not article in self.headers_and_references[current_line]:
-                                    self.headers_and_references[current_line].append(article)
-                                    total_reference_count += 1
+                    for article in current_articles:
+                        header_manager.add_reference(article)
+                else: # In this case, we can ignore everything that's not a header or a quote block
+                    pass
 
         self.total_reference_count = total_reference_count
         return total_reference_count

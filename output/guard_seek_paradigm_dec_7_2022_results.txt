@@ -1,0 +1,43 @@
+(103)
+	Guard Against Temptations and Distractions / Build Barriers to Avoid Bombardment (commandments - draw boundaries)(32)
+		Take time to be still (build barriers from distraction)(32)
+		Total number of unique references for this header: 17
+		References: ['(100)', '(121)', '(047)', '(119)', '(001)', '(013)', '(106)', '(017)', '(026)', '(027)', '(061)', '(066)', '(119)', '(124)', '(061)', '(103)', '(104)', '(014)', '(014)', '(015)', '(047)', '(027)']
+			Don’t let it interfere with your relationship with God(15)
+			Total number of unique references for this header: 12
+			References: ['(034)', '(034)', '(073)', '(001)', '(033)', '(114)', '(048)', '(089)', '(149)', '(151)', '(105)', '(108)', '(158)']
+				Don’t let technology get in the way of making the Sabbath Day holy(3)
+				Total number of unique references for this header: 3
+				References: ['(088)', '(120)', '(120)', '(122)']
+	Intentionally Seek (agency)(71)
+		Seeking content/experiences for ourselves (personal improvement)(12)
+			Live life intentionally; Prioritize better and best things(12)
+			Total number of unique references for this header: 4
+			References: ['(017)', '(013)', '(017)', '(017)', '(027)', '(046)']
+				Technology is beneficial when used wisely(8)
+				Total number of unique references for this header: 8
+				References: ['(022)', '(100)', '(017)', '(034)', '(098)', '(111)', '(006)', '(016)', '(017)']
+		Seeking connections with others(59)
+			Share the Gospel(15)
+				Members Sharing the Gospel(15)
+				Total number of unique references for this header: 15
+				References: ['(113)', '(053)', '(008)', '(125)', '(084)', '(133)', '(060)', '(011)', '(060)', '(063)', '(094)', '(150)', '(150)', '(150)', '(119)', '(125)', '(159)', '(160)', '(162)']
+			Research family history(16)
+			Total number of unique references for this header: 11
+			References: ['(044)', '(028)', '(039)', '(141)', '(067)', '(067)', '(144)', '(140)', '(067)', '(148)', '(018)', '(065)', '(095)', '(095)', '(095)', '(095)']
+				Technology has accelerated Family History and Temple Work(5)
+				Total number of unique references for this header: 5
+				References: ['(067)', '(018)', '(025)', '(054)', '(090)']
+			Serve others(13)
+			Total number of unique references for this header: 8
+			References: ['(126)', '(130)', '(052)', '(037)', '(073)', '(013)', '(046)', '(065)']
+				Ministering(5)
+				Total number of unique references for this header: 5
+				References: ['(059)', '(153)', '(052)', '(038)', '(161)']
+			Make meaningful connections with others(12)
+			Total number of unique references for this header: 12
+			References: ['(010)', '(022)', '(045)', '(009)', '(020)', '(032)', '(033)', '(082)', '(093)', '(126)', '(137)', '(100)', '(100)']
+			Miscellaneous(3)
+				Analogies(3)
+				Total number of unique references for this header: 3
+				References: ['(154)', '(138)', '(086)']

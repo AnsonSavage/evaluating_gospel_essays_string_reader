@@ -17,7 +17,7 @@ class Header:
     def get_header_level(self):
         return self.header_level
 
-    def add_direct_subheader(self, header):
+    def add_subheader(self, header):
         self.sub_headers.append(header)
     
     def get_all_descendants_references_including_self(self, unique = True):
@@ -32,18 +32,43 @@ class Header:
             return len(set(self.references))
         return len(self.references)
     
+    def join_integers_with_delimiter(self, integers, delimiter) -> str:
+        return delimiter.join([str(integer) for integer in integers])
+    
+    def surround_string_with_parenthesis(self, string):
+        return "(" + string + ")"
+
+    def get_decendent_references_count_string(self) -> str:
+        return self.surround_string_with_parenthesis(self.join_integers_with_delimiter([self.get_all_descendants_references_including_self(unique=True), self.get_all_descendants_references_including_self(unique=False)], "/"))
+    
+    def get_header_specific_references_count_string(self) -> str:
+        return self.surround_string_with_parenthesis(self.join_integers_with_delimiter([self.get_num_direct_references(unique=True), self.get_num_direct_references(unique=False)], "/"))
+    
+    def generate_header_text(self):
+        tab_prefix = "\t" * self.header_level
+        return tab_prefix + "* " + self.header_text + " " + self.get_decendent_references_count_string() +"\n"
+        
     
     def __str__(self):
-        tab_prefix = "\t" * self.header_level
-        result_string = tab_prefix + self.header_text + "(" + str(self.get_all_descendants_references_including_self(unique=True)) + ")\n"
+        indent_prefix = "\t" * (self.header_level + 1)
 
+        result_string = self.generate_header_text()
         if self.get_num_direct_references(unique=True) > 0:
-            result_string += tab_prefix + "Total number of unique references for this header: " + str(self.get_num_direct_references(unique=True)) + "\n"
-            result_string += tab_prefix + "References: " + str(self.references) + "\n"
+            result_string += indent_prefix + "- " + "References directly linked to this principle " + self.get_header_specific_references_count_string() + "\n"
+            result_string += indent_prefix + "- " + "References: " + str(self.references) + "\n"
 
         for sub_header in self.sub_headers:
             result_string += str(sub_header)
         return result_string
+    
+    def generate_own_table_entry(self):
+        return [self.generate_header_text(), self.get_decendent_references_count_string(), self.get_header_specific_references_count_string(), str(self.references)]
+    
+    def add_table_entries(self, header_manager):
+        header_manager.add_table_entry(self.generate_own_table_entry())
+        for sub_header in self.sub_headers:
+            sub_header.add_table_entries(header_manager)
+        
     
 
 class HeaderManager:
@@ -51,20 +76,17 @@ class HeaderManager:
         self.root_header = Header("") # This is the root header, which is the header that is the parent of all other headers and has a level of 0
         self.current_header = self.root_header
         self.most_recent_header_dict = {self.root_header.get_header_level(): self.root_header}
+        self.table_representation = None
     
     def add_header(self, line_text):
         new_header = Header(line_text)
         
+        self.most_recent_header_dict[new_header.get_header_level()] = new_header
         if new_header.get_header_level() > self.current_header.get_header_level(): # If the header is a subheader of the current header
-            self.current_header.add_direct_subheader(new_header)
+            self.current_header.add_subheader(new_header)
         else:
-            if new_header.get_header_level() - 1 in self.most_recent_header_dict: # This is the case when a header directly follows another header that is one level higher
-                # Find the most recent header that is a direct parent of the new header
-                most_recent_header = self.most_recent_header_dict[new_header.get_header_level() - 1]
-                most_recent_header.add_direct_subheader(new_header)
-                self.most_recent_header_dict[new_header.get_header_level()] = new_header
-            else: # This is the case when, for example, there is a level three header that jumps back to a level one header
-                self.most_recent_header_dict[new_header.get_header_level()] = new_header
+            next_smallest_header_level = max([key for key in self.most_recent_header_dict.keys() if key < new_header.get_header_level()])
+            self.most_recent_header_dict[next_smallest_header_level].add_subheader(new_header)
 
         self.current_header = new_header
     
@@ -76,3 +98,12 @@ class HeaderManager:
     
     def get_total_references_from_header_group(self, unique = True):
         return self.root_header.get_num_direct_references(unique= unique)
+    
+    def add_table_entry(self, table_entry: list):
+        self.table_representation.append(table_entry)
+
+    def get_table_representation(self):
+        assert self.table_representation is None, "Table representation has already been generated"
+        self.table_representation = []
+        self.root_header.add_table_entries(self)
+        return self.table_representation

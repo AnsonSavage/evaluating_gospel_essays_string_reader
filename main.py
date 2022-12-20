@@ -11,3 +11,10 @@ if not os.path.exists('output'):
 
 with open('output/guard_seek_paradigm_dec_7_2022_results.txt', 'w') as fileobj:
     fileobj.write(str(reference_counter))
+
+# Output the table representation to a csv file:
+
+import csv
+with open('output/guard_seek_paradigm_dec_7_2022_table.csv', 'w') as fileobj:
+    csv_writer = csv.writer(fileobj, delimiter=',')
+    csv_writer.writerows(reference_counter.get_table_representation())

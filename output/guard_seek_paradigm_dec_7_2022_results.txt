@@ -1,43 +1,111 @@
-(103)
-	Guard Against Temptations and Distractions / Build Barriers to Avoid Bombardment (commandments - draw boundaries)(32)
-		Take time to be still (build barriers from distraction)(32)
-		Total number of unique references for this header: 17
-		References: ['(100)', '(121)', '(047)', '(119)', '(001)', '(013)', '(106)', '(017)', '(026)', '(027)', '(061)', '(066)', '(119)', '(124)', '(061)', '(103)', '(104)', '(014)', '(014)', '(015)', '(047)', '(027)']
-			Don’t let it interfere with your relationship with God(15)
-			Total number of unique references for this header: 12
-			References: ['(034)', '(034)', '(073)', '(001)', '(033)', '(114)', '(048)', '(089)', '(149)', '(151)', '(105)', '(108)', '(158)']
-				Don’t let technology get in the way of making the Sabbath Day holy(3)
-				Total number of unique references for this header: 3
-				References: ['(088)', '(120)', '(120)', '(122)']
-	Intentionally Seek (agency)(71)
-		Seeking content/experiences for ourselves (personal improvement)(12)
-			Live life intentionally; Prioritize better and best things(12)
-			Total number of unique references for this header: 4
-			References: ['(017)', '(013)', '(017)', '(017)', '(027)', '(046)']
-				Technology is beneficial when used wisely(8)
-				Total number of unique references for this header: 8
-				References: ['(022)', '(100)', '(017)', '(034)', '(098)', '(111)', '(006)', '(016)', '(017)']
-		Seeking connections with others(59)
-			Share the Gospel(15)
-				Members Sharing the Gospel(15)
-				Total number of unique references for this header: 15
-				References: ['(113)', '(053)', '(008)', '(125)', '(084)', '(133)', '(060)', '(011)', '(060)', '(063)', '(094)', '(150)', '(150)', '(150)', '(119)', '(125)', '(159)', '(160)', '(162)']
-			Research family history(16)
-			Total number of unique references for this header: 11
-			References: ['(044)', '(028)', '(039)', '(141)', '(067)', '(067)', '(144)', '(140)', '(067)', '(148)', '(018)', '(065)', '(095)', '(095)', '(095)', '(095)']
-				Technology has accelerated Family History and Temple Work(5)
-				Total number of unique references for this header: 5
-				References: ['(067)', '(018)', '(025)', '(054)', '(090)']
-			Serve others(13)
-			Total number of unique references for this header: 8
-			References: ['(126)', '(130)', '(052)', '(037)', '(073)', '(013)', '(046)', '(065)']
-				Ministering(5)
-				Total number of unique references for this header: 5
-				References: ['(059)', '(153)', '(052)', '(038)', '(161)']
-			Make meaningful connections with others(12)
-			Total number of unique references for this header: 12
-			References: ['(010)', '(022)', '(045)', '(009)', '(020)', '(032)', '(033)', '(082)', '(093)', '(126)', '(137)', '(100)', '(100)']
-			Miscellaneous(3)
-				Analogies(3)
-				Total number of unique references for this header: 3
-				References: ['(154)', '(138)', '(086)']
+*  (238/275)
+	* Guard Against Temptations and Distractions / Build Barriers to Avoid Bombardment (commandments - draw boundaries) (120/138)
+		* Take time to be still (build barriers from distraction) (62/72)
+			- References directly linked to this principle (17/22)
+			- References: ['(100)', '(121)', '(047)', '(119)', '(001)', '(013)', '(106)', '(017)', '(026)', '(027)', '(061)', '(066)', '(119)', '(124)', '(061)', '(103)', '(104)', '(014)', '(014)', '(015)', '(047)', '(027)']
+			* Don’t let it interfere with your relationship with God (25/28)
+				- References directly linked to this principle (12/13)
+				- References: ['(034)', '(034)', '(073)', '(001)', '(033)', '(114)', '(048)', '(089)', '(149)', '(151)', '(105)', '(108)', '(158)']
+				* Don’t let technology get in the way of making the Sabbath Day holy (3/4)
+					- References directly linked to this principle (3/4)
+					- References: ['(088)', '(120)', '(120)', '(122)']
+				* Don’t let it distract from receiving truth from God (discernment) (10/11)
+					- References directly linked to this principle (10/11)
+					- References: ['(037)', '(042)', '(028)', '(138)', '(114)', '(050)', '(064)', '(026)', '(028)', '(147)', '(158)']
+			* Don’t let it distract you from relationships with family and others (14/16)
+				- References directly linked to this principle (14/16)
+				- References: ['(115)', '(119)', '(093)', '(102)', '(119)', '(119)', '(058)', '(016)', '(110)', '(148)', '(001)', '(014)', '(017)', '(051)', '(004)', '(100)']
+			*  (6/6)
+				- References directly linked to this principle (6/6)
+				- References: ['(009)', '(098)', '(013)', '(124)', '(030)', '(107)']
+		* Resist natural temptations (31/32)
+			* In General (6/6)
+				- References directly linked to this principle (6/6)
+				- References: ['(069)', '(087)', '(070)', '(072)', '(081)', '(049)']
+			* Resist temptation to give into doubt and fear (3/3)
+				- References directly linked to this principle (3/3)
+				- References: ['(009)', '(035)', '(088)']
+			* Resist temptation to rely on things of man instead of God (2/2)
+				- References directly linked to this principle (2/2)
+				- References: ['(136)', '(096)']
+			* Avoid Addictions (20/21)
+				- References directly linked to this principle (3/3)
+				- References: ['(002)', '(001)', '(012)']
+				* Avoid Pornography (17/18)
+					- References directly linked to this principle (17/18)
+					- References: ['(064)', '(071)', '(157)', '(078)', '(106)', '(111)', '(124)', '(142)', '(143)', '(079)', '(080)', '(083)', '(022)', '(024)', '(100)', '(155)', '(156)', '(156)']
+		* Protect families and others from evil (21/26)
+			- References directly linked to this principle (16/19)
+			- References: ['(004)', '(066)', '(156)', '(061)', '(016)', '(016)', '(028)', '(028)', '(068)', '(101)', '(086)', '(085)', '(091)', '(110)', '(092)', '(085)', '(087)', '(065)', '(082)']
+			* Protect from pornography (3/4)
+				- References directly linked to this principle (3/4)
+				- References: ['(075)', '(083)', '(063)', '(083)']
+			* Protect marriages through digital trust (1/1)
+				- References directly linked to this principle (1/1)
+				- References: ['(074)']
+			* Protect others from cyberbullying (1/2)
+				- References directly linked to this principle (1/2)
+				- References: ['(041)', '(041)']
+		* Avoid comparison with others and be authentic (4/5)
+			- References directly linked to this principle (4/5)
+			- References: ['(065)', '(099)', '(035)', '(016)', '(016)']
+		* Moderate resources (2/3)
+			- References directly linked to this principle (2/3)
+			- References: ['(065)', '(065)', '(147)']
+	* Intentionally Seek (agency) (118/137)
+		* Seeking content/experiences for ourselves (personal improvement) (39/46)
+			* Live life intentionally; Prioritize better and best things (12/15)
+				- References directly linked to this principle (4/6)
+				- References: ['(017)', '(013)', '(017)', '(017)', '(027)', '(046)']
+				* Technology is beneficial when used wisely (8/9)
+					- References directly linked to this principle (8/9)
+					- References: ['(022)', '(100)', '(017)', '(034)', '(098)', '(111)', '(006)', '(016)', '(017)']
+			* Seek out uplifting things (content?) (26/30)
+				* Useful for finding spiritual information (19/22)
+					- References directly linked to this principle (10/13)
+					- References: ['(044)', '(006)', '(109)', '(006)', '(014)', '(017)', '(045)', '(109)', '(126)', '(136)', '(129)', '(131)', '(014)']
+					* Able to view general conference (9/9)
+						- References directly linked to this principle (9/9)
+						- References: ['(076)', '(056)', '(137)', '(037)', '(026)', '(007)', '(109)', '(146)', '(057)']
+				* Useful for finding valuable information (7/8)
+					- References directly linked to this principle (7/8)
+					- References: ['(001)', '(009)', '(028)', '(033)', '(061)', '(107)', '(114)', '(009)']
+			* Seek to be still (?) (1/1)
+				- References directly linked to this principle (1/1)
+				- References: ['(006)']
+		* Seeking connections with others (79/91)
+			* Share the Gospel (35/41)
+				* Members Sharing the Gospel (15/19)
+					- References directly linked to this principle (15/19)
+					- References: ['(113)', '(053)', '(008)', '(125)', '(084)', '(133)', '(060)', '(011)', '(060)', '(063)', '(094)', '(150)', '(150)', '(150)', '(119)', '(125)', '(159)', '(160)', '(162)']
+				* Missionaries Sharing the Gospel (3/3)
+					- References directly linked to this principle (3/3)
+					- References: ['(029)', '(152)', '(065)']
+				* Members and Missionaries Working Together (4/5)
+					- References directly linked to this principle (4/5)
+					- References: ['(145)', '(094)', '(094)', '(150)', '(007)']
+				* Technology is Rapidly Expanding Missionary Work (5/5)
+					- References directly linked to this principle (5/5)
+					- References: ['(057)', '(125)', '(135)', '(016)', '(017)']
+				* General/ Other (8/9)
+					- References directly linked to this principle (8/9)
+					- References: ['(010)', '(055)', '(020)', '(007)', '(116)', '(013)', '(060)', '(116)', '(068)']
+			* Research family history (16/21)
+				- References directly linked to this principle (11/16)
+				- References: ['(044)', '(028)', '(039)', '(141)', '(067)', '(067)', '(144)', '(140)', '(067)', '(148)', '(018)', '(065)', '(095)', '(095)', '(095)', '(095)']
+				* Technology has accelerated Family History and Temple Work (5/5)
+					- References directly linked to this principle (5/5)
+					- References: ['(067)', '(018)', '(025)', '(054)', '(090)']
+			* Serve others (13/13)
+				- References directly linked to this principle (8/8)
+				- References: ['(126)', '(130)', '(052)', '(037)', '(073)', '(013)', '(046)', '(065)']
+				* Ministering (5/5)
+					- References directly linked to this principle (5/5)
+					- References: ['(059)', '(153)', '(052)', '(038)', '(161)']
+			* Make meaningful connections with others (12/13)
+				- References directly linked to this principle (12/13)
+				- References: ['(010)', '(022)', '(045)', '(009)', '(020)', '(032)', '(033)', '(082)', '(093)', '(126)', '(137)', '(100)', '(100)']
+			* Miscellaneous (3/3)
+				* Analogies (3/3)
+					- References directly linked to this principle (3/3)
+					- References: ['(154)', '(138)', '(086)']

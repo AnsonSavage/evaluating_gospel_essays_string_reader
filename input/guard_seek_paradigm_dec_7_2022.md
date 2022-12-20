@@ -174,8 +174,7 @@ To avoid these pitfalls, members were encouraged to be present and aware of thos
 -   “Brethren, if you will set aside your cell phone and actually look around a little, you may even find your future companion at the institute.” (100)
     
 
-###   
-Don’t let it distract from letting you achieve your personal divine potential
+### Don’t let it distract from letting you achieve your personal divine potential
 
 Not only can technology distract from fostering meaningful relationships with others, it can also “distract… from fulfilling [their] divine potential.” (013) One leader observed that the same technology that can be used for so much good can also be used by Satan “to tempt you and to ensnare you in his web of deceit, thereby hoping to take possession of your destiny.” (098)
 

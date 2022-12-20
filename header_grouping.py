@@ -48,6 +48,9 @@ class Header:
         tab_prefix = "\t" * self.header_level
         return tab_prefix + "* " + self.header_text + " " + self.get_decendent_references_count_string() +"\n"
         
+    def get_header_for_table_entry(self):
+        prefix = "*" * self.header_level
+        return "\"" + prefix + " " + self.header_text.replace(",", ";") + "\""
     
     def __str__(self):
         indent_prefix = "\t" * (self.header_level + 1)
@@ -62,7 +65,7 @@ class Header:
         return result_string
     
     def generate_own_table_entry(self):
-        return [self.generate_header_text(), self.get_decendent_references_count_string(), self.get_header_specific_references_count_string(), str(self.references)]
+        return [self.get_header_for_table_entry(), self.get_decendent_references_count_string(), self.get_header_specific_references_count_string(), str(self.references)]
     
     def add_table_entries(self, header_manager):
         header_manager.add_table_entry(self.generate_own_table_entry())

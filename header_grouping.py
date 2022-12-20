@@ -65,7 +65,7 @@ class Header:
         return result_string
     
     def generate_own_table_entry(self):
-        return [self.get_header_for_table_entry(), self.get_decendent_references_count_string(), self.get_header_specific_references_count_string(), str(self.references)]
+        return [self.get_header_for_table_entry(), self.get_header_specific_references_count_string(), self.get_decendent_references_count_string(), str(self.references)]
     
     def add_table_entries(self, header_manager):
         header_manager.add_table_entry(self.generate_own_table_entry())

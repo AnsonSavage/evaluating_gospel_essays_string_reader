@@ -25,7 +25,7 @@ class ReferenceCounter:
         print(str(self))
     
     def get_table_representation(self):
-        table_headers = ["Principle Name", "Number of References for Principle (Unique/All)", "Number of References for Principle and Subprinciples (Unique/All)", "Enumerated References for Principle"]
+        table_headers = ["Name of Principle", "Number of References Specific to Principle (Unique/All)", "Number of References for Principle and Subprinciples (Unique/All)", "Enumerated References for Principle"]
         table_body = self.header_manager.get_table_representation()
         
         # combine table headers and body

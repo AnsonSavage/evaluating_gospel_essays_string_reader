@@ -20,12 +20,22 @@ class Header:
     def add_subheader(self, header):
         self.sub_headers.append(header)
     
-    def get_all_descendants_references_including_self(self, unique = True):
-        total_number_of_references = self.get_num_direct_references(unique = unique)
-
+    def get_concatenation_of_all_references_of_this_header_and_subheaders(self):
+        all_references = self.references.copy()
         for sub_header in self.sub_headers:
-            total_number_of_references += sub_header.get_all_descendants_references_including_self(unique = unique)
-        return total_number_of_references
+            all_references += sub_header.get_concatenation_of_all_references_of_this_header_and_subheaders()
+        return all_references
+        
+    
+    def get_all_descendants_references_including_self(self, unique = True):
+        if not unique:
+            total_number_of_references = self.get_num_direct_references(unique = False)
+            for sub_header in self.sub_headers:
+                total_number_of_references += sub_header.get_all_descendants_references_including_self(unique = False)
+            return total_number_of_references
+
+        else: # If we are looking for unique references, then we need to make sure that references across subheaders are also unique
+            return len(set(self.get_concatenation_of_all_references_of_this_header_and_subheaders()))
     
     def get_num_direct_references(self, unique = True):
         if unique:

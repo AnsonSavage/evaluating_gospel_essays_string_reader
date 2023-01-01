@@ -1,9 +1,9 @@
-*  (238/275)
-	* Guard Against Temptations and Distractions / Build Barriers to Avoid Bombardment (commandments - draw boundaries) (120/138)
-		* Take time to be still (build barriers from distraction) (62/72)
+*  (141/275)
+	* Guard Against Temptations and Distractions / Build Barriers to Avoid Bombardment (commandments - draw boundaries) (88/138)
+		* Take time to be still (build barriers from distraction) (51/72)
 			- References directly linked to this principle (17/22)
 			- References: ['(100)', '(121)', '(047)', '(119)', '(001)', '(013)', '(106)', '(017)', '(026)', '(027)', '(061)', '(066)', '(119)', '(124)', '(061)', '(103)', '(104)', '(014)', '(014)', '(015)', '(047)', '(027)']
-			* Don’t let it interfere with your relationship with God (25/28)
+			* Don’t let it interfere with your relationship with God (23/28)
 				- References directly linked to this principle (12/13)
 				- References: ['(034)', '(034)', '(073)', '(001)', '(033)', '(114)', '(048)', '(089)', '(149)', '(151)', '(105)', '(108)', '(158)']
 				* Don’t let technology get in the way of making the Sabbath Day holy (3/4)
@@ -52,16 +52,16 @@
 		* Moderate resources (2/3)
 			- References directly linked to this principle (2/3)
 			- References: ['(065)', '(065)', '(147)']
-	* Intentionally Seek (agency) (118/137)
-		* Seeking content/experiences for ourselves (personal improvement) (39/46)
-			* Live life intentionally; Prioritize better and best things (12/15)
+	* Intentionally Seek (agency) (83/137)
+		* Seeking content/experiences for ourselves (personal improvement) (34/46)
+			* Live life intentionally; Prioritize better and best things (11/15)
 				- References directly linked to this principle (4/6)
 				- References: ['(017)', '(013)', '(017)', '(017)', '(027)', '(046)']
 				* Technology is beneficial when used wisely (8/9)
 					- References directly linked to this principle (8/9)
 					- References: ['(022)', '(100)', '(017)', '(034)', '(098)', '(111)', '(006)', '(016)', '(017)']
-			* Seek out uplifting things (content?) (26/30)
-				* Useful for finding spiritual information (19/22)
+			* Seek out uplifting things (content?) (25/30)
+				* Useful for finding spiritual information (18/22)
 					- References directly linked to this principle (10/13)
 					- References: ['(044)', '(006)', '(109)', '(006)', '(014)', '(017)', '(045)', '(109)', '(126)', '(136)', '(129)', '(131)', '(014)']
 					* Able to view general conference (9/9)
@@ -73,8 +73,8 @@
 			* Seek to be still (?) (1/1)
 				- References directly linked to this principle (1/1)
 				- References: ['(006)']
-		* Seeking connections with others (79/91)
-			* Share the Gospel (35/41)
+		* Seeking connections with others (65/91)
+			* Share the Gospel (30/41)
 				* Members Sharing the Gospel (15/19)
 					- References directly linked to this principle (15/19)
 					- References: ['(113)', '(053)', '(008)', '(125)', '(084)', '(133)', '(060)', '(011)', '(060)', '(063)', '(094)', '(150)', '(150)', '(150)', '(119)', '(125)', '(159)', '(160)', '(162)']
@@ -90,13 +90,13 @@
 				* General/ Other (8/9)
 					- References directly linked to this principle (8/9)
 					- References: ['(010)', '(055)', '(020)', '(007)', '(116)', '(013)', '(060)', '(116)', '(068)']
-			* Research family history (16/21)
+			* Research family history (14/21)
 				- References directly linked to this principle (11/16)
 				- References: ['(044)', '(028)', '(039)', '(141)', '(067)', '(067)', '(144)', '(140)', '(067)', '(148)', '(018)', '(065)', '(095)', '(095)', '(095)', '(095)']
 				* Technology has accelerated Family History and Temple Work (5/5)
 					- References directly linked to this principle (5/5)
 					- References: ['(067)', '(018)', '(025)', '(054)', '(090)']
-			* Serve others (13/13)
+			* Serve others (12/13)
 				- References directly linked to this principle (8/8)
 				- References: ['(126)', '(130)', '(052)', '(037)', '(073)', '(013)', '(046)', '(065)']
 				* Ministering (5/5)

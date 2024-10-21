@@ -5,8 +5,8 @@ class Header:
 
         # Make sure that there are no pound signs in the header itself by creating a substring starting at the first non-pound sign
         header_without_leading_pound_signs = line_text[self.header_level:].strip()
-        assert not "#" in header_without_leading_pound_signs, "Header contains pound signs: " + header_without_leading_pound_signs
-        
+        # assert "#" not in header_without_leading_pound_signs, "Header contains pound signs: " + header_without_leading_pound_signs
+      
         self.header_text = header_without_leading_pound_signs
         self.sub_headers = []
         self.references= []

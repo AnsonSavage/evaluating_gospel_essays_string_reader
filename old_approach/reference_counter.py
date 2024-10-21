@@ -16,8 +16,8 @@ class ReferenceCounter:
                     self.header_manager.add_header(line)
                 elif line.startswith("-"): # This indicates that this line is quote block
                     current_articles = self.p.findall(line)  # This will return a list of all references in the current line
-                    for article in current_articles:
-                        self.header_manager.add_reference(article)
+                    assert len(current_articles) == 1, "There should only be one reference per line"
+                    self.header_manager.add_reference(current_articles[0])
                 else: # In this case, we can ignore everything that's not a header or a quote block
                     pass
 
